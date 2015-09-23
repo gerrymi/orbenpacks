@@ -1,0 +1,60 @@
+.navbar{
+	min-height: 65px
+}
+.navbar li a{
+	padding:30px;
+}
+.navbar-brand img {
+	height: 35px;
+}
+.hero-header {
+	background-image: url('/dist/img/Orben_Desktop_1.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	width: auto;
+	margin: 60px 0 25px;
+}
+.navbar-default {
+	background-color: #fff;
+}
+.container-fluid {
+	background-color: #333;
+	color: #eee;
+}
+p.lead {
+	margin-top: 25px;
+}
+.row.tag {
+	margin-bottom: 25px;
+}
+.product-card {
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 75px;
+	color: #222;
+}
+.product-card:hover h3{
+	text-decoration: none;
+}
+.product-card img {
+	width: 100%;
+}
+.product-card h3 {
+	margin: -5px;
+}
+div.collection {
+	background-color: #333;
+	color: #eee;
+	height: 340px;
+	padding: 90px 25px 20px;
+}
+.collection h2{
+	
+}
+.collection p{
+	font-size: 1.1em;
+}
+.see-more a h2 small {
+	font-size: .6em;
+}

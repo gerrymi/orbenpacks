@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>Orben</title>
+    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/dist/css/Orben.css" rel="stylesheet"/>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/angular/angular.min.js"> </script>
+  </head>
+  <body ng-app="myApp">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"> <img src="/dist/img/orben_logo_black.png"/></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/products.html">Products</a></li>
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="hero-header"></div>
+      </div>
+      <div class="container">
+        <div class="row tag">
+          <div class="col-md-4">
+            <h2 class="featurette-heading">Örben <span class="text-muted">Design & Quality</span></h2>
+          </div>
+          <div class="col-md-8">
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta.      </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="featurette-divider"/>
+      <div ng-controller="MainController" class="row">
+        <div class="col-md-4 collection">
+          <h2>Modular Collection</h2>
+          <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
+          <div class="see-more"><a>
+              <h2><small>see more </small></h2></a></div>
+        </div>
+        <div class="col-md-8">
+          <div ng-repeat="product in products" ng-if="$index &lt; 3" class="col-md-4"><a href="/products/{{ product.collection }}/{{ product.styleName }}.html">
+              <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_thumb.jpg"/>
+                <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
+                <h3 class="styleName">{{ product.styleName }}</h3>
+              </div></a></div>
+        </div>
+      </div>
+      <hr class="featurette-divider"/>
+      <div ng-controller="MainController" class="row">
+        <div class="col-md-8">
+          <div ng-repeat="product in products" ng-if="$index &gt; 2 &amp;&amp; $index &lt; 6" class="col-md-4"><a href="/products/{{ product.collection }}/{{ product.styleName }}.html">
+              <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_thumb.jpg"/>
+                <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
+                <h3 class="styleName">{{ product.styleName }}</h3>
+              </div></a></div>
+        </div>
+        <div class="col-md-4 collection">
+          <h2>Orben Classic</h2>
+          <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
+          <div class="see-more"><a>
+              <h2><small>see more</small></h2></a></div>
+        </div>
+      </div>
+      <hr class="featurette-divider"/>
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7"><img data-src="holder.js/500x500/auto" alt="Generic placeholder image" class="featurette-image img-responsive center-block"/></div>
+      </div>
+      <hr class="featurette-divider"/>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5"><img data-src="holder.js/500x500/auto" alt="Generic placeholder image" class="featurette-image img-responsive center-block"/></div>
+      </div>
+      <hr class="featurette-divider"/>
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2014 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+    </div>
+    <script src="/dist/angular/angularApp.js"></script>
+    <script src="/dist/angular/controllers/MainController.js"></script>
+  </body>
+</html>
