@@ -1,2 +1,4 @@
 .DS_Store
 _ignored
+lib
+node_modules

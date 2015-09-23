@@ -1,0 +1,30 @@
+{
+  "name": "orbenpacks.com",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gerrymi/orbenpacks.com",
+  "keywords": [
+    "orben",
+    "packs",
+    "backpacks",
+    "luggage",
+    "travel",
+    "bags",
+    "modern",
+    "walmart"
+  ],
+  "authors": [
+    "Gerrymi Bernardo"
+  ],
+  "license": "GNU",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6"
+  }
+}
