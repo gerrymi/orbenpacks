@@ -48,8 +48,12 @@ ul.product-thumbs {
 	padding: 0;
 }
 ul.product-thumbs li{
-	padding-bottom: 10px;
 	margin-left: -20px;
+	margin-right: 20px;
+}
+ul.product-thumbs li img{
+	display: block;
+	margin-bottom: 10px;
 }
 .product-info img {
 	border: 1px solid #ddd;
