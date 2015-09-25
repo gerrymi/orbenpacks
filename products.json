@@ -4,7 +4,6 @@
     "styleName": "Scout", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
-    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut massa vitae sem vestibulum pharetra. Aenean tempus purus eu nisl dictum vestibulum. Vivamus ornare interdum libero eget consectetur. Pellentesque dictum sapien eget dui vulputate, nec finibus orci vehicula.",
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   }, 
   { 
@@ -12,7 +11,6 @@
     "styleName": "Explorer", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
-    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut massa vitae sem vestibulum pharetra. Aenean tempus purus eu nisl dictum vestibulum. Vivamus ornare interdum libero eget consectetur. Pellentesque dictum sapien eget dui vulputate, nec finibus orci vehicula.",
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   }, 
   { 
@@ -20,7 +18,20 @@
     "styleName": "Trooper", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
-    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut massa vitae sem vestibulum pharetra. Aenean tempus purus eu nisl dictum vestibulum. Vivamus ornare interdum libero eget consectetur. Pellentesque dictum sapien eget dui vulputate, nec finibus orci vehicula.",
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Modular",
+    "styleName": "Saratoga 21", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Modular",
+    "styleName": "Saratoga 28", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
@@ -28,7 +39,6 @@
     "styleName": "Moore", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
-    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut massa vitae sem vestibulum pharetra. Aenean tempus purus eu nisl dictum vestibulum. Vivamus ornare interdum libero eget consectetur. Pellentesque dictum sapien eget dui vulputate, nec finibus orci vehicula.",
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
@@ -36,7 +46,6 @@
     "styleName": "Explorer", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
-    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut massa vitae sem vestibulum pharetra. Aenean tempus purus eu nisl dictum vestibulum. Vivamus ornare interdum libero eget consectetur. Pellentesque dictum sapien eget dui vulputate, nec finibus orci vehicula.",
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
@@ -44,7 +53,79 @@
     "styleName": "Trooper", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
-    "fullText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut massa vitae sem vestibulum pharetra. Aenean tempus purus eu nisl dictum vestibulum. Vivamus ornare interdum libero eget consectetur. Pellentesque dictum sapien eget dui vulputate, nec finibus orci vehicula.",
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
-  }
+  },
+  { 
+    "collection": "Orben Duffel",
+    "styleName": "The Duffel", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Cellphone Accessories",
+    "styleName": "Zip Case", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Cellphone Accessories",
+    "styleName": "Snap Case", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Electornics",
+    "styleName": "Skylar Tote", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Electornics",
+    "styleName": "Vertical Zip", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Electornics",
+    "styleName": "Cargo", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Electornics",
+    "styleName": "Versatile", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Electornics",
+    "styleName": "Versatile", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Back To School",
+    "styleName": "School", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
 ]
+
+
+
+
+
+
+
+
+
+
