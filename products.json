@@ -1,5 +1,6 @@
 [ 
   { 
+    "id": "0",
     "collection": "Modular",
     "styleName": "Scout", 
     "msrp": "n/a", 
@@ -7,6 +8,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   }, 
   { 
+    "id": "1",
     "collection": "Modular",
     "styleName": "Explorer", 
     "msrp": "n/a", 
@@ -14,6 +16,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   }, 
   { 
+    "id": "2",
     "collection": "Modular",
     "styleName": "Trooper", 
     "msrp": "n/a", 
@@ -21,6 +24,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "3",
     "collection": "Modular",
     "styleName": "Saratoga 21", 
     "msrp": "n/a", 
@@ -28,6 +32,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "4",
     "collection": "Modular",
     "styleName": "Saratoga 28", 
     "msrp": "n/a", 
@@ -35,6 +40,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "5",
     "collection": "PDQ",
     "styleName": "Moore", 
     "msrp": "n/a", 
@@ -42,6 +48,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "6",
     "collection": "PDQ",
     "styleName": "Explorer", 
     "msrp": "n/a", 
@@ -49,6 +56,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "7",
     "collection": "PDQ",
     "styleName": "Trooper", 
     "msrp": "n/a", 
@@ -56,6 +64,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "8",
     "collection": "Orben Duffel",
     "styleName": "The Duffel", 
     "msrp": "n/a", 
@@ -63,6 +72,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "9",
     "collection": "Electronics",
     "styleName": "Skylar Tote", 
     "msrp": "n/a", 
@@ -70,6 +80,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "10",
     "collection": "Electronics",
     "styleName": "Vertical Zip", 
     "msrp": "n/a", 
@@ -77,6 +88,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "11",
     "collection": "Electronics",
     "styleName": "Cargo", 
     "msrp": "n/a", 
@@ -84,6 +96,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "12",
     "collection": "Electronics",
     "styleName": "Versatile", 
     "msrp": "n/a", 
@@ -91,6 +104,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "13",
     "collection": "Cellphone Accessories",
     "styleName": "Snap Wallet", 
     "msrp": "n/a", 
@@ -98,6 +112,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "14",
     "collection": "Cellphone Accessories",
     "styleName": "Zip Wallet", 
     "msrp": "n/a", 
@@ -105,6 +120,7 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
+    "id": "15",
     "collection": "Back To School",
     "styleName": "School", 
     "msrp": "n/a", 

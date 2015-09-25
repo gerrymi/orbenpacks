@@ -57,10 +57,9 @@
 <div class="container" ng-controller="MainController">
 	<div class="row">
 		<hr class="featurette-divider"/>
-		  <div class="col-md-12">
-		  	<div class="col-md-1"></div>
+		  <div class="col-md-10">
 		    <div ng-repeat="product in products | filter:{collection: detail.collection}" ng-if="$index != currentId"  class="col-md-2">
-		      <a href="#/products/{{$index}}">
+		      <a href="#/products/{{product.id}}">
 		        <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
 		          <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
 		          <h3 class="styleName">{{ product.styleName }}</h3>
