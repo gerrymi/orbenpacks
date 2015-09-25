@@ -2,6 +2,7 @@ var app = angular.module('myApp', ['ngRoute']);
 app.config(function($routeProvider){
     $routeProvider.
         when('/', {templateUrl: '/dist/angular/views/home.html', controller: 'MainController'}).
+        when('/products', {templateUrl: '/dist/angular/views/products.html', controller: 'MainController'}).
         when('/products/:id', {templateUrl: '/dist/angular/views/product.html', controller: 'ProductController'}).
         otherwise({ redirectTo: '/' });
 });
@@ -17,3 +18,4 @@ app.directive('errSrc', function() {
     }
   }
 });
+
