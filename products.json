@@ -63,50 +63,43 @@
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
-    "collection": "Cellphone Accessories",
-    "styleName": "Zip Case", 
-    "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
-  },
-  { 
-    "collection": "Cellphone Accessories",
-    "styleName": "Snap Case", 
-    "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
-  },
-  { 
-    "collection": "Electornics",
+    "collection": "Electronics",
     "styleName": "Skylar Tote", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
-    "collection": "Electornics",
+    "collection": "Electronics",
     "styleName": "Vertical Zip", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
-    "collection": "Electornics",
+    "collection": "Electronics",
     "styleName": "Cargo", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
-    "collection": "Electornics",
+    "collection": "Electronics",
     "styleName": "Versatile", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
   },
   { 
-    "collection": "Electornics",
-    "styleName": "Versatile", 
+    "collection": "Cellphone Accessories",
+    "styleName": "Snap Wallet", 
+    "msrp": "n/a", 
+    "flavorText": "Flavor text makes products more interesting" ,
+    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+  },
+  { 
+    "collection": "Cellphone Accessories",
+    "styleName": "Zip Wallet", 
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
@@ -117,7 +110,7 @@
     "msrp": "n/a", 
     "flavorText": "Flavor text makes products more interesting" ,
     "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
-  },
+  }
 ]
 
 
