@@ -6,7 +6,7 @@ body {
 	text-decoration: none;
 }
 .container.transparent {
-	background-image: url('/dist/img/seamless_paper_texture.png');
+	background-color: transparent;
 	z-index: -1;
 }
 h1 {
