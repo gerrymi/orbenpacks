@@ -3,7 +3,7 @@ app.controller('ProductController', ['$scope', 'products', '$routeParams', funct
     $scope.detail = data[$routeParams.id];
   	$scope.currentId = $routeParams.id;
   });
-  var IMAGE_WIDTH = 357;
+  var IMAGE_WIDTH = 503;
   $scope.scrollTo = function(image,ind) {
       $scope.listposition = {left:(IMAGE_WIDTH * ind * -1) + "px"};
       $scope.selected = image;

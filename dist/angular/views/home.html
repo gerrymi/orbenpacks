@@ -1,93 +1,92 @@
-<div class="container">
+<div class="container shadow">
   <div class="row">
     <div class="hero-header">
       <div class="col-md-offset-6 col-md-6 hero-header-inner">
-        <h1>Lorem ipsum dolor.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nemo beatae, inventore quisquam nesciunt enim ipsum perspiciatis minus deserunt quasi?</p>
+        <h1>Everyone Needs A Bag</h1>
+        <p>Browse our collection of various packs, from school bags, electronics bags, to travel and luggage, even cellphone wallet cases; we have you covered.</p>
+        <a href="#/products" class="button">Browse The Collection</a>
       </div>
     </div>
   </div>
-    <div class="row tag">
-      <div class="col-md-offset-1 col-md-10">
-        <div class="col-md-4">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ullam, doloribus!</p>
-        </div>
-        <div class="col-md-4 left-dotted">
-          <p>Cumque atque labore qui et veritatis iste laboriosam nihil quod quis accusamus.</p>
-        </div>
-        <div class="col-md-4 left-dotted">
-          <p>Nesciunt obcaecati animi porro fuga molestiae distinctio repellendus ea nisi!</p>
-        </div>
+</div>
+<div class="container transparent">
+  <div class="row tag">
+    <div class="col-md-offset-1 col-md-10">
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ullam, doloribus!</p>
+      </div>
+      <div class="col-md-4 left-dotted">
+        <p>Cumque atque labore qui et veritatis iste laboriosam nihil quod quis accusamus.</p>
+      </div>
+      <div class="col-md-4 left-dotted">
+        <p>Nesciunt obcaecati animi porro fuga molestiae distinctio repellendus ea nisi!</p>
       </div>
     </div>
-
-</div>
-<div class="container">
-
-<div class="row">
-  <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_1.jpg'); background-size: cover;">
-    <h2>Modular Collection</h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
-    <div class="see-more"><a>
-        <h2><small>see more </small></h2></a></div>
-  </div>
-  <div class="col-md-7">
-    <div ng-repeat="product in products | filter:{collection: 'Modular'} | limitTo: 3" class="col-md-4">
-      <a href="#/products/{{product.id}}">
-        <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
-          <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
-          <h3 class="styleName">{{ product.styleName }}</h3>
-        </div></a></div>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-md-7">
-    <div ng-repeat="product in products | filter:{collection: 'PDQ'} | limitTo: 3" class="col-md-4">
-      <a href="#/products/{{product.id}}">
-        <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
-          <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
-          <h3 class="styleName">{{ product.styleName }}</h3>
-        </div></a></div>
-  </div>
-  <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_2.jpg'); background-size: cover;">
-    <h2>Orben Classic</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
-    <div class="see-more"><a>
-        <h2><small>see more</small></h2></a></div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_3.jpg'); background-size: cover;">
-    <h2>Electronics Program</h2>
-    <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
-    <div class="see-more"><a>
-        <h2><small>see more </small></h2></a></div>
-  </div>
-  <div class="col-md-7">
-    <div ng-repeat="product in products | filter:{collection: 'Electronics'} | limitTo: 3" class="col-md-4">
-      <a href="#/products/{{product.id}}">
-        <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
-          <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
-          <h3 class="styleName">{{ product.styleName }}</h3>
-        </div></a></div>
-  </div>
-</div>
-<!-- <hr class="featurette-divider"/>
-<div class="row featurette">
-  <div class="col-md-7 col-md-push-5">
-    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-  </div>
-  <div class="col-md-5 col-md-pull-7"><img src="http://placehold.it/500x250" alt="Generic placeholder image" class="featurette-image img-responsive center-block"/></div>
-</div>
-<hr class="featurette-divider"/>
-<div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-  </div>
-  <div class="col-md-5"><img src="http://placehold.it/500x250" alt="Generic placeholder image" class="featurette-image img-responsive center-block"/></div>
-</div>
-<hr class="featurette-divider"/> -->
+<div class="container shadow">
+  <div class="row">
+    <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_1.jpg'); background-size: cover;">
+      <h2>Modular Collection</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
+      <a class="button">
+      see more </a>
+    </div>
+    <div class="col-md-7">
+      <div ng-repeat="product in products | filter:{collection: 'Modular'} | limitTo: 3" class="col-md-4">
+        <a href="#/products/{{product.id}}">
+          <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
+            <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
+            <h3 class="styleName">{{ product.styleName }}</h3>
+          </div></a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <div ng-repeat="product in products | filter:{collection: 'PDQ'} | limitTo: 3" class="col-md-4">
+            <a href="#/products/{{product.id}}">
+              <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
+                <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
+                <h3 class="styleName">{{ product.styleName }}</h3>
+              </div></a></div>
+            </div>
+            <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_2.jpg'); background-size: cover;">
+              <h2>Orben Classic</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
+              <a class="button">
+              see more</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_3.jpg'); background-size: cover;">
+              <h2>Electronics Program</h2>
+              <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
+              <a class="button">
+              see more </a>
+            </div>
+            <div class="col-md-7">
+              <div ng-repeat="product in products | filter:{collection: 'Electronics'} | limitTo: 3" class="col-md-4">
+                <a href="#/products/{{product.id}}">
+                  <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
+                    <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
+                    <h3 class="styleName">{{ product.styleName }}</h3>
+                  </div></a></div>
+                </div>
+              </div>
+              <!-- <hr class="featurette-divider"/>
+              <div class="row featurette">
+                <div class="col-md-7 col-md-push-5">
+                  <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                  <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5 col-md-pull-7"><img src="http://placehold.it/500x250" alt="Generic placeholder image" class="featurette-image img-responsive center-block"/></div>
+              </div>
+              <hr class="featurette-divider"/>
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                  <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5"><img src="http://placehold.it/500x250" alt="Generic placeholder image" class="featurette-image img-responsive center-block"/></div>
+              </div>
+              <hr class="featurette-divider"/> -->

@@ -1,72 +1,69 @@
-<div class="container nav-space">
-	<div class="row">
-	<div class="product-info">
-		<div class="col-md-5">
-			<div class="col-md-10 product-photo-slider-frame">
-				<div class="product-photo-slider">
-					<ul id="fullscroller" class="fullsizelist" ng-style="listposition">
-						<li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_00.jpg"/></li>
-						<li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_01.jpg"/></li>
-						<li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_02.jpg"/></li>
-						<li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_03.jpg"/></li>
-						<li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_04.jpg"/></li>
-						<li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_05.jpg"/></li>
-						<li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_06.jpg"/></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-2">
-				<ul class="product-thumbs">
-					<li>
-						<a ng-href="" ng-click="scrollTo(image,0)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_00.jpg"/></a>
-						</li>
-					<li>
-						<a ng-href="" ng-click="scrollTo(image,1)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_01.jpg"/></a>
-						</li>
-					<li>
-						<a ng-href="" ng-click="scrollTo(image,2)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_02.jpg"/></a>
-						</li>
-					<li>
-						<a ng-href="" ng-click="scrollTo(image,3)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_03.jpg"/></a>
-						</li>
-					<li>
-						<a ng-href="" ng-click="scrollTo(image,4)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_04.jpg"/></a>
-						</li>
-					<li>
-						<a ng-href="" ng-click="scrollTo(image,5)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_05.jpg"/></a>
-						</li>
-					<li>
-						<a ng-href="" ng-click="scrollTo(image,6)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_06.jpg"/></a>
-						</li>
-				</ul>
-			</div>	
-		</div>	
-		<div class="col-md-6">
-			<h4 class="collection"> <small>{{ detail.collection | uppercase }}</small></h4>
-			<h1 class="styleName">{{ detail.styleName }}</h3>
-			<p class="flavorText"> {{ detail.flavorText }}</p>
-			<ul>
-			<li class="features" ng-repeat="feature in detail.features">{{ feature }}</li>
-			</ul>
-		</div>
-		<div class="col-md-1"></div>
-	</div>
-	</div>
-</div>
-
-<div class="container" ng-controller="MainController">
-	<div class="row">
-		<hr class="featurette-divider"/>
-		  <div class="col-md-10">
-		    <div ng-repeat="product in products | filter:{collection: detail.collection}" ng-if="$index != currentId"  class="col-md-2">
-		      <a href="#/products/{{product.id}}">
-		        <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
-		          <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
-		          <h3 class="styleName">{{ product.styleName }}</h3>
-		        </div>
-		      </a>
-		    </div>
-		  </div>
-		</div>
-	</div>
-</div>
+<div class="container nav-space full-height shadow">
+  <div class="row">
+    <div class="product-info">
+      <div class="col-md-7">
+        <div class="col-md-10 product-photo-slider-frame">
+          <div class="product-photo-slider">
+            <ul id="fullscroller" class="fullsizelist" ng-style="listposition">
+              <li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_00.jpg"/></li>
+              <li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_01.jpg"/></li>
+              <li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_02.jpg"/></li>
+              <li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_03.jpg"/></li>
+              <li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_04.jpg"/></li>
+              <li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_05.jpg"/></li>
+              <li><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_06.jpg"/></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <ul class="product-thumbs">
+            <li>
+              <a ng-href="" ng-click="scrollTo(image,0)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_00.jpg"/></a>
+            </li>
+            <li>
+              <a ng-href="" ng-click="scrollTo(image,1)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_01.jpg"/></a>
+            </li>
+            <li>
+              <a ng-href="" ng-click="scrollTo(image,2)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_02.jpg"/></a>
+            </li>
+            <li>
+              <a ng-href="" ng-click="scrollTo(image,3)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_03.jpg"/></a>
+            </li>
+            <li>
+              <a ng-href="" ng-click="scrollTo(image,4)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_04.jpg"/></a>
+            </li>
+            <li>
+              <a ng-href="" ng-click="scrollTo(image,5)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_05.jpg"/></a>
+            </li>
+            <li>
+              <a ng-href="" ng-click="scrollTo(image,6)"><img err-SRC src="/dist/img/products/{{ detail.collection }}/{{ detail.styleName }}_06.jpg"/></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4 class="collection"> <small>{{ detail.collection | uppercase }}</small></h4>
+        <h1 class="styleName">{{ detail.styleName }}</h3>
+        <p class="flavorText">{{ detail.flavorText }}</p>
+        <ul>
+          <li class="features" ng-repeat="feature in detail.features">{{ feature }}</li>
+        </ul>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+  <div ng-controller="MainController">
+    <div class="row">
+      <hr class="featurette-divider"/>
+      <div class="col-md-9">
+        <div ng-repeat="product in products | filter:{collection: detail.collection}" ng-if="$index != currentId"  class="col-md-3">
+          <a href="#/products/{{product.id}}">
+            <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
+              <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
+              <h3 class="styleName">{{ product.styleName }}</h3>
+            </div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
