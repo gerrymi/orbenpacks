@@ -41,15 +41,16 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-5">
         <h4 class="collection"> <small>{{ detail.collection | uppercase }}</small></h4>
-        <h1 class="styleName">{{ detail.styleName }}</h3>
-        <p class="flavorText">{{ detail.flavorText }}</p>
-        <ul>
-          <li class="features" ng-repeat="feature in detail.features">{{ feature }}</li>
+        <div class="styleName">
+          <h1 class="styleName">{{ detail.styleName }}</h1>
+          <p class="flavorText">{{ detail.flavorText }}</p>
+        </div>
+        <ul class="features">
+          <li ng-repeat="feature in detail.features">{{ feature }}</li>
         </ul>
       </div>
-      <div class="col-md-1"></div>
     </div>
   </div>
   <div ng-controller="MainController">
