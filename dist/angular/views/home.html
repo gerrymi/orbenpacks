@@ -1,29 +1,38 @@
-<div class="container-fluid">
+<div class="container">
   <div class="row">
-    <div class="hero-header"></div>
-  </div>
-  <div class="container">
-    <div class="row tag">
-      <div class="col-md-4">
-        <h2 class="featurette-heading">Örben <span class="text-muted">Design & Quality</span></h2>
-      </div>
-      <div class="col-md-8">
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta.      </p>
+    <div class="hero-header">
+      <div class="col-md-offset-6 col-md-6 hero-header-inner">
+        <h1>Lorem ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nemo beatae, inventore quisquam nesciunt enim ipsum perspiciatis minus deserunt quasi?</p>
       </div>
     </div>
   </div>
+    <div class="row tag">
+      <div class="col-md-offset-1 col-md-10">
+        <div class="col-md-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ullam, doloribus!</p>
+        </div>
+        <div class="col-md-4 left-dotted">
+          <p>Cumque atque labore qui et veritatis iste laboriosam nihil quod quis accusamus.</p>
+        </div>
+        <div class="col-md-4 left-dotted">
+          <p>Nesciunt obcaecati animi porro fuga molestiae distinctio repellendus ea nisi!</p>
+        </div>
+      </div>
+    </div>
+
 </div>
 <div class="container">
-<hr class="featurette-divider"/>
+
 <div class="row">
-  <div class="col-md-4 collection">
+  <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_1.jpg'); background-size: cover;">
     <h2>Modular Collection</h2>
-    <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
     <div class="see-more"><a>
         <h2><small>see more </small></h2></a></div>
   </div>
-  <div class="col-md-8">
-    <div ng-repeat="product in products | filter:{collection: 'Modular'} | limitTo: 4" class="col-md-3">
+  <div class="col-md-7">
+    <div ng-repeat="product in products | filter:{collection: 'Modular'} | limitTo: 3" class="col-md-4">
       <a href="#/products/{{product.id}}">
         <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
           <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>
@@ -31,9 +40,9 @@
         </div></a></div>
   </div>
 </div>
-<hr class="featurette-divider"/>
+
 <div class="row">
-  <div class="col-md-offset-2 col-md-6">
+  <div class="col-md-7">
     <div ng-repeat="product in products | filter:{collection: 'PDQ'} | limitTo: 3" class="col-md-4">
       <a href="#/products/{{product.id}}">
         <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
@@ -41,23 +50,23 @@
           <h3 class="styleName">{{ product.styleName }}</h3>
         </div></a></div>
   </div>
-  <div class="col-md-4 collection">
+  <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_2.jpg'); background-size: cover;">
     <h2>Orben Classic</h2>
-    <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
     <div class="see-more"><a>
         <h2><small>see more</small></h2></a></div>
   </div>
 </div>
-<hr class="featurette-divider"/>
+
 <div class="row">
-  <div class="col-md-4 collection">
+  <div class="col-md-5 collection" style="background-image: url('/dist/img/collection_bg_3.jpg'); background-size: cover;">
     <h2>Electronics Program</h2>
     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at saepe id enim itaque eius ratione. Sint, nihil non ea.</p>
     <div class="see-more"><a>
         <h2><small>see more </small></h2></a></div>
   </div>
-  <div class="col-md-8">
-    <div ng-repeat="product in products | filter:{collection: 'Electronics'} | limitTo: 4" class="col-md-3">
+  <div class="col-md-7">
+    <div ng-repeat="product in products | filter:{collection: 'Electronics'} | limitTo: 3" class="col-md-4">
       <a href="#/products/{{product.id}}">
         <div class="product-card"><img src="/dist/img/products/{{ product.collection }}/{{ product.styleName }}_00.jpg"/>
           <h4 class="collection"> <small>{{ product.collection | uppercase }}</small></h4>

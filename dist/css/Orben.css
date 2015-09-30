@@ -1,5 +1,5 @@
 body {
-	background-color: #eee;
+	background-image: url('/dist/img/seamless_paper_texture.png');
 }
 .container {
 	background-color: #fff;
@@ -24,6 +24,14 @@ body {
 	height: 550px;
 	width: auto;
 	margin: 60px 0 25px;
+}
+.hero-header-inner {
+	color: #fff;
+	padding: 200px 75px 50px;
+}
+.left-dotted {
+	display: block;
+	border-left: 1px dotted #000;
 }
 .product-header {
 	height: 10px;
@@ -80,26 +88,60 @@ p.flavorText {
 	font-weight: bold;
 	font-size: 1.5em;
 }
-div img {
+.product-card img {
 	width: 100%;
 }
 .product-card h3 {
 	margin: -5px;
 }
 div.collection {
-	background-color: #333;
-	color: #eee;
-	height: 270px;
-	padding: 30px 25px 20px;
+	background-color: #ccc;
+	color: #ddd;
+	height: 300px;
+	padding: 40px 75px 20px;
 }
 .collection p{
-	font-size: 1.1em;
+	font-size: 1.2em;
+	margin-bottom: 30px;
 }
 .see-more a h2 small {
 	font-size: .6em;
+	color: #ddd;
+	background-color: #333;
+	padding: 5px;
+}
+.footer {	
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+}
+.footer .footer-inner {
+	padding: 25px 0 5px;
+}
+.footer .container {
+	color: #fff;
+	background-color: transparent; 
+}
+.footer h2 {
+	margin-top: 0;
+}
+.container-fluid.license {
+	padding: 15px 0 10px;
+	background-color: #222;
+	margin-top: 25px;
+}
+ul.social-media-links {
+	padding-left: 0;
+	margin-top: 25px;
+}
+ul.social-media-links li{
+	display: inline-block;
 }
 
 /* ###################### */
+li img {
+	width: 100%;
+}
 
 .product-photo-slider li {
     display:inline-block;
