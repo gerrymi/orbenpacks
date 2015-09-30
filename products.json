@@ -4,128 +4,136 @@
     "collection": "Modular",
     "styleName": "Scout", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "The most versatile travel companion. Less hassle, more travel.",
+    "features": ["Top Quick Grab Handle", "TSA Open Flat Capability", "Large Main Compartment", "Protective Tablet Sleeve", "Front Panel Organization", "Side Water Bottle Pockets", "Bottom Access To Main Compartment", "Comfy Padded Air Mesh Back Panel", "Convenient Attachment Sleeve For Luggage Handles"]
   }, 
   { 
     "id": "1",
     "collection": "Modular",
     "styleName": "Explorer", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "Explore the world without worrying about your gear.",
+    "features": ["TSA Open Flat Capability", "Large Main Compartment", "Protective Laptop Sleeve", "Protective Tablet Sleeve", "Interior Organizer", "Side Compression Straps", "Safety Reflective Tab Doubles As Gear Attachment Point", "Comfy Padded Air Mesh Back Panel", "Convenient Attachment Sleeve For Luggage Handles"]
   }, 
   { 
     "id": "2",
     "collection": "Modular",
     "styleName": "Trooper", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "",
+    "features": ["TSA Open Flat Capability", "Large Main Compartment", "Protective Laptop Sleeve", "Protective Tablet Sleeve", "Interior Organizer", "Daisy Chain Gear Attachment", "Side Compression Straps", "Safety Reflective Tab Doubles As Gear Attachment Point", "Comfy Padded Air Mesh Back Panel", "Convenient Attachment Sleeve For Luggage Handles"]
   },
   { 
     "id": "3",
     "collection": "Modular",
     "styleName": "Saratoga 21", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "Enjoy the hassle free packing in this 21inch rolling luggage.",
+    "features": ["Durable Smooth Rolling Wheel System", "Recessed Telescoping Handle System", "External Compression Strap With Bottom, Top, and Front Handles"]
   },
   { 
     "id": "4",
     "collection": "Modular",
     "styleName": "Saratoga 28", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "This 28inch rolling luggage has more than enough space for everything you might need. Go ahead and pack extra.",
+    "features": ["Durable Smooth Rolling Wheel System", "Recessed Telescoping Handle System", "External Compression Strap With Bottom, Top, and Front Handles"]
   },
   { 
     "id": "5",
     "collection": "PDQ",
-    "styleName": "Moore", 
+    "styleName": "Trooper", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "Your new travel buddy has you covered.",
+    "features": ["Laptop Compartment With Protective Laptop Sleeve", "Large Main Compartment With Protective Sleeve For Tablet", "Daisy Chain Gear Attachment Point", "Safety Reflective Tab Doubles As Gear Attachment Point", "Side Compression Straps", "Comfy Padded Air Mesh Back Panel", "Convenient Sleeve Attaches Backpack To Luggage Handle"]
   },
   { 
     "id": "6",
     "collection": "PDQ",
-    "styleName": "Explorer", 
+    "styleName": "Moore", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "The perfect get away is one backpack away.",
+    "features": ["Zip Flat Compartment With Protective Laptop Sleeve", "Large Main Compartment With Protective Sleeve For Tablet", "Safety Reflective Piping", "Daisy Chain Gear Attachment", "Interior Organizer", "Side Water Bottle Pockets", "Comfy Padded Air Mesh Back Panel", "Convenient Sleeve Attaches Backpack To Luggage Handle"]
   },
   { 
     "id": "7",
     "collection": "PDQ",
-    "styleName": "Trooper", 
+    "styleName": "Explorer", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "Explore with no worries.",
+    "features": ["Large Main Compartment With Padded Laptop Sleeve", "Protective Tablet Sleeve", "Interior Organizer", "Safety Reflective Tab Doubles As Gear Attachment Point", "Side Zipper Pockets For Added Storage", "Comfy Padded Air Mesh Back Panel", "Convenient Sleeve Attaches Backpack To Luggage Handles "]
   },
   { 
     "id": "8",
     "collection": "Orben Duffel",
-    "styleName": "The Duffel", 
+    "styleName": "Orben Duffel 28", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "",
+    "features": ["100% Polyester With PU Coating", "Smooth-action Skateboard Wheels", "Stabilizer Support Structure", "Webbing Attachment Points", "Zipper Tabs", "Accessory Pocket", "Interior Mesh Pocket", "Spacious Easy-access Main Compartment", "Trolley System"]
   },
   { 
     "id": "9",
-    "collection": "Electronics",
-    "styleName": "Skylar Tote", 
+    "collection": "Orben Duffel",
+    "styleName": "Orben Duffel 29", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "",
+    "features": ["100% Polyester", "Smooth-action Skateboard Wheels", "Stabilizer Support Structure", "Webbing Attachment Points", "Zipper Tabs", "Accessory Pocket", "Interior Mesh Pocket", "Spacious Easy-access Main Compartment", "Trolley System"]
   },
   { 
     "id": "10",
     "collection": "Electronics",
-    "styleName": "Vertical Zip", 
+    "styleName": "Skylar Tote", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "This stylish heather tote is meant to be the perfect daily pack for just about eveyrthing you need.",
+    "features": ["Heather Texture", "Spacious Interior Compartment", "Organizer Pockets", "Laptop And Tablet Sleeve", "Laptop Compartment", "Multiple Exterior Pockets", "Tablet Sleeve", "Organizer Pocket"]
   },
   { 
     "id": "11",
     "collection": "Electronics",
-    "styleName": "Cargo", 
+    "styleName": "Vertical Zip", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "Designed to let you access your gear with ease, this erogonomic vertical zip backpack is complete with organized internal storage.",
+    "features": ["Vertical Zip Design", "Dedicated Laptop Storage Space", "Internal Pockets For Storage Media", "Internal Organizer Pockets", "Padded Airflow Back Panel", "Padded Shoulder Straps", "Dual Water Bottle Pockets", "Padded Neoprene Handle", "Tablet Sleeve"]
   },
   { 
     "id": "12",
     "collection": "Electronics",
-    "styleName": "Versatile", 
+    "styleName": "Cargo", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "Laptop backpack made for everyday use with a utilitarian design and a generous carrying capacity.",
+    "features": ["Padded Back Panel And Shoulder Strap", "Multiple Exterior Pockets", "Exterior Gear Attachment Point", "Laptop Compartment", "Tablet Sleeve", "Organizer Pocket", "Fleece Lined Media Pocket"]
   },
   { 
     "id": "13",
-    "collection": "Cellphone Accessories",
-    "styleName": "Snap Wallet", 
+    "collection": "Electronics",
+    "styleName": "Versatile", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "Designed with 2 spacious main storage compartments, this backpack will make transporting your gear a breeze. ",
+    "features": ["Adjustable Shoulder Straps", "Padded Backing", "Multipocket Organizer", "Neoprene Grab Handle", "Side Water Bottle Pockets", "Laptop Sleeve", "Tablet Sleeve", "Organizer Pocket ", "Fleece Lined Media Pocket"]
   },
   { 
     "id": "14",
     "collection": "Cellphone Accessories",
-    "styleName": "Zip Wallet", 
+    "styleName": "Snap Wallet", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "Suit up your iPhone in this convenient wallet case and leave the purse at home.",
+    "features": ["Fits the iPhone 6/6s", "Easy Snap Lock"]
   },
   { 
     "id": "15",
+    "collection": "Cellphone Accessories",
+    "styleName": "Zip Wallet", 
+    "msrp": "n/a", 
+    "flavorText": "Suit up your iPhone in this convenient wallet case and leave the purse at home.",
+    "features": ["Fits the iPhone 6/6s", "Zippered Access"]
+  },
+  { 
+    "id": "16",
     "collection": "Back To School",
     "styleName": "School", 
     "msrp": "n/a", 
-    "flavorText": "Flavor text makes products more interesting" ,
-    "features": ["Laptop Sleeve","Organizer Pocket", "Sternum Strap", "Other Cool Stuff", "...and More"]
+    "flavorText": "",
+    "features": ["Vertical Zip Design", "Dedicated Laptop Storage Space", "Internal Pockets For Storage Media", "Internal Organizer Pockets", "Padded Airflow Back Panel", "Padded Shoulder Straps", "Dual Water Bottle Pockets", "Padded Neoprene Handle", "Tablet Sleeve"]
   }
 ]
 
