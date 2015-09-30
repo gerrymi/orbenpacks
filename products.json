@@ -130,9 +130,9 @@
   { 
     "id": "16",
     "collection": "Back To School",
-    "styleName": "School", 
+    "styleName": "School Bag", 
     "msrp": "n/a", 
-    "flavorText": "",
+    "flavorText": "Getting things in order is easier with Örben.",
     "features": ["Vertical Zip Design", "Dedicated Laptop Storage Space", "Internal Pockets For Storage Media", "Internal Organizer Pockets", "Padded Airflow Back Panel", "Padded Shoulder Straps", "Dual Water Bottle Pockets", "Padded Neoprene Handle", "Tablet Sleeve"]
   }
 ]
