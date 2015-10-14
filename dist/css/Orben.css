@@ -307,6 +307,17 @@ li img {
 	border-bottom: 1px solid #ddd; 
 	margin-bottom: 25px;
 }
-
-
-
+.well.stores {
+	height: 170px;
+	overflow-y: scroll;
+}
+.well.stores .store{
+    transition:  .3s ease;
+    -ms-transition:  .3s ease;
+    -o-transition:  .3s ease;
+    -webkit-transition:  .3s ease;
+    -moz-transition:  .3s ease;
+}
+.well.stores .store:hover{
+	background-color: #ccc;
+}
