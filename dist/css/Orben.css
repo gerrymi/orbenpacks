@@ -321,3 +321,10 @@ li img {
 .well.stores .store:hover{
 	background-color: #ccc;
 }
+.sectioned h3 {
+	margin-top: 100px;
+	border-top: 1px dashed #ccc;
+	background-color: #000;
+	color: #eee;
+	padding: 10px;
+}
