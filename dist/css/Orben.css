@@ -302,10 +302,10 @@ li img {
 	width: 100%;
 }
 .instructions p {
-	font-size: 1.3em;
+	font-size: 1.25em;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #ddd; 
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 .well.stores {
 	height: 170px;
@@ -321,9 +321,11 @@ li img {
 .well.stores .store:hover{
 	background-color: #ccc;
 }
-.sectioned h3 {
-	margin-top: 100px;
+.sectioned{
+	margin: 25px 0 75px;
 	border-top: 1px dashed #ccc;
+}
+.sectioned h3 {
 	background-color: #000;
 	color: #eee;
 	padding: 10px;
