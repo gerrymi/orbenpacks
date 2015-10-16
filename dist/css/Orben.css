@@ -307,12 +307,12 @@ li img {
 }
 .instructions p {
 	font-size: 1.25em;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	border-bottom: 1px solid #ddd; 
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .well.stores {
-	height: 170px;
+	height: 120px;
 	overflow-y: scroll;
 }
 .well.stores .store{
