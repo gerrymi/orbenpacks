@@ -166,7 +166,7 @@ p.lead {
 .product-card {
 	text-decoration: none;
 	text-align: center;
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 	color: #222;
 	overflow-x: hidden;
 }
@@ -269,7 +269,28 @@ ul.social-media-links {
 ul.social-media-links li{
 	display: inline-block;
 }
-
+.cta {
+	padding: 15px 25px 5px;
+	border: 2px dashed #EB3;
+	text-align: center;
+	margin-bottom: 50px;
+	transition:  .3s ease;
+	-ms-transition:  .3s ease;
+	-o-transition:  .3s ease;
+	-webkit-transition:  .3s ease;
+	-moz-transition:  .3s ease;
+}
+.cta p {
+	font-size: 1.5em;
+	color: #555;
+}
+.cta:hover {
+	background-color: #FFEEA6;
+}
+.cta:hover p {
+	color: #333;
+}
+	
 /* ###################### */
 li img {
 	width: 100%;
