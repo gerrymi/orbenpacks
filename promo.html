@@ -19,8 +19,8 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/index.html#/">Home</a></li>
-            <li><a href="#/products">Products</a></li>
-            <li><a href="#/about.html">About</a></li>
+            <li><a href="/index.html#/products">Products</a></li>
+            <li><a href="/promo.html" class="nav-promo">Promo</a></li>
           </ul>
         </div>
       </div>
@@ -40,7 +40,7 @@
         <div class="row tag">
           <div class="col-md-12">
             <div class="col-md-3">
-              <h3>Orben Luggage Promo</h3>
+              <h3>ÖRBEN Luggage Promo</h3>
             </div>
             <div class="col-md-9 left-dotted">
               <h4>Official Mail-In Certificate: Valid only from October 12, 2015 to December 31, 2015.</h4>
@@ -55,8 +55,8 @@
           </div>
           <div class="col-md-6">
             <h3>Buy:</h3>
-            <p>Any ÖRBEN 21" or 28" Casual Rolling Upright luggage piece from any Walmart store location listed below.</p>
-            <h4>States with Participating Stores:
+            <p>Any ÖRBEN 21" or 28" Casual Rolling Upright luggage piece from any <span>Walmart</span> store location listed below.</p>
+            <h4>States with Participating Walmart Stores:
             <select ng-model="yourState"> 
                <option></option>
                <option>AL</option>
@@ -80,19 +80,20 @@
               <div class="col-sm-12 well stores">
                 <div class="col-sm-6 store" ng-repeat="store in stores | filter:{State: yourState, PrimeItemDesc: 'OB 28IN CASUA' } |orderBy: 'City'" ng-hide="yourState == null">
                   <div>
+                    <a href="http://maps.google.com/?q={{ store.StreetAddress }}, {{ store.ZipCode }}" target="_blank">
                     <h5>{{ store.StoreName }}</h5>
                     <h5><small>{{ store.StreetAddress }}, {{ store.ZipCode }}</small></h5>
-                    <br>
+                    </a>
                   </div>
                 </div>
               </div>
             <h3>Send:</h3>
-            <p>An original fully completed rebate certificate, a fully completed survey questionnaire as seen below, the original Walmart identified cash register receipt with the product purchase circled, the UPC bar code cut from the packaging material and all original hang tags from the product.
+            <p>An original fully completed rebate certificate, a fully completed survey questionnaire as seen below, the original Walmart identified cash register receipt with the product purchase(s) circled, the UPC bar code(s) cut from the packaging material of all claimed products and all original hang tags from all claimed products.
             <br>
             <br><a href="/dist/dl/OrbenCertificateSurvey.pdf" target="_blank">Download Rebate Certificate & Survey Questionaire</a>
             </p>
             <h3>Receive:</h3>
-            <p>A check for the circled price of the purchase price (excluding tax).</p>
+            <p>$50.00 for each claimed ÖRBEN 21" Casual Rolling Upright luggage piece. $60 for each claimed ÖRBEN 28" Casual Rolling Upright luggage piece. All payments will be made by check.</p>
             <h3>Limit:</h3>
             <p>All requests must be received at the mailing address or be postmarked by January 31, 2016.</p>
             <h3>Mail To:</h3>
@@ -104,7 +105,7 @@
           </div>
           
           <div class="col-xs-12 sectioned">
-            <h3>Orben 21" Casual Rolling Upright</h3>
+            <h3>ÖRBEN 21" Casual Rolling Upright</h3>
             <div class="clear"></div>
             <div class="col-xs-6 col-md-3"><a href="/index.html#/products/3"><img src="/dist/img/products/Modular/Saratoga 21_00.jpg" alt=""></a></div>
             <div class="col-xs-6 col-md-3"><a href="/index.html#/products/3"><img src="/dist/img/products/Modular/Saratoga 21_01.jpg" alt=""></a></div>
@@ -112,7 +113,7 @@
             <div class="col-xs-6 col-md-3"><a href="/index.html#/products/3"><img src="/dist/img/products/Modular/Saratoga 21_03.jpg" alt=""></a></div>
           </div>
           <div class="col-xs-12 sectioned">
-            <h3>Orben 28" Casual Rolling Upright</h3>
+            <h3>ÖRBEN 28" Casual Rolling Upright</h3>
             <div class="clear"></div>
             <div class="col-xs-6 col-md-3"><a href="/index.html#/products/4"><img src="/dist/img/products/Modular/Saratoga 28_00.jpg" alt=""></a></div>
             <div class="col-xs-6 col-md-3"><a href="/index.html#/products/4"><img src="/dist/img/products/Modular/Saratoga 28_01.jpg" alt=""></a></div>

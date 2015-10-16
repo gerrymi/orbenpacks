@@ -43,6 +43,10 @@ p {
 	font-family: 'Gentium Basic', serif;
 	font-size: 1em;
 }
+p span {
+	font-family: 'Open Sans Condensed';
+	font-weight: 600;
+}
 .button {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 600; 
